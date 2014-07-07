@@ -1,0 +1,61 @@
+<div ng-controller="preferencesCtrl">
+	<ons-list>
+	<ons-list-item class="topcoat-list__item__line-height">
+	<ons-row>
+	<ons-col>
+	<span class="topcoat-list__item__line-height">Location Service</span>
+</ons-col>
+<ons-col align="right">
+<div style="padding-top: 8px; padding-right: 8px">
+	<label class="topcoat-switch">
+		<input type="checkbox" name="locationServiceSwitch" class="topcoat-switch__input"
+		ng-model="locationServiceSwitch"
+		ng-true-value="1"
+		ng-false-value="0"
+		ng-change="setPreference('locationServiceSwitch')">
+		<div class="topcoat-switch__toggle"></div>
+	</label>
+</div>
+</ons-col>
+</ons-row>
+</ons-list-item>
+<ons-list-item class="topcoat-list__item__line-height">
+<ons-row>
+<ons-col>
+<span class="topcoat-list__item__line-height">Driving Service</span>
+</ons-col>
+<ons-col align="right">
+<div style="padding-top: 8px; padding-right: 8px">
+	<label class="topcoat-switch">
+		<input type="checkbox" name="drivingServiceSwitch" class="topcoat-switch__input"
+		ng-model="drivingServiceSwitch"
+		ng-true-value="1"
+		ng-false-value="0"
+		ng-change="setPreference('drivingServiceSwitch')">
+		<div class="topcoat-switch__toggle"></div>
+	</label>
+</div>
+</ons-col>
+</ons-row>
+</ons-list-item>
+<ons-list-item class="topcoat-list__item__line-height">
+<ons-row>
+<ons-col>
+<span class="topcoat-list__item__line-height">Family Service</span>
+</ons-col>
+<ons-col align="right">
+<div style="padding-top: 8px; padding-right: 8px">
+	<label class="topcoat-switch">
+		<input type="checkbox" name="familyServiceSwitch" class="topcoat-switch__input"
+		ng-model="familyServiceSwitch"
+		ng-true-value="1"
+		ng-false-value="0"
+		ng-change="setPreference('familyServiceSwitch')">
+		<div class="topcoat-switch__toggle"></div>
+	</label>
+</div>
+</ons-col>
+</ons-row>
+</ons-list-item>
+</ons-list>
+</div>
