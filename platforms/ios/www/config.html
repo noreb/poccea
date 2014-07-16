@@ -3,7 +3,10 @@
 	<ons-list-item class="topcoat-list__item__line-height">
 	<ons-row>
 	<ons-col>
-	<span class="topcoat-list__item__line-height">Location Service</span>
+	<span class="topcoat-list__item__line-height">
+		Location Service <br>
+		<small>Allow the app to track your location to increase the accuracy of the ads.</small>
+	</span>
 </ons-col>
 <ons-col align="right">
 <div style="padding-top: 8px; padding-right: 8px">
@@ -12,7 +15,7 @@
 		ng-model="locationServiceSwitch"
 		ng-true-value="1"
 		ng-false-value="0"
-		ng-change="setPreference('locationServiceSwitch')">
+		ng-change="set_user_preference('locationServiceSwitch')">
 		<div class="topcoat-switch__toggle"></div>
 	</label>
 </div>
@@ -22,7 +25,10 @@
 <ons-list-item class="topcoat-list__item__line-height">
 <ons-row>
 <ons-col>
-<span class="topcoat-list__item__line-height">Driving Service</span>
+<span class="topcoat-list__item__line-height">
+	Driving Service<br>
+	<small>Allow the app to track your driving style to increase the accuracy of the ads.</small>
+</span>
 </ons-col>
 <ons-col align="right">
 <div style="padding-top: 8px; padding-right: 8px">
@@ -31,7 +37,7 @@
 		ng-model="drivingServiceSwitch"
 		ng-true-value="1"
 		ng-false-value="0"
-		ng-change="setPreference('drivingServiceSwitch')">
+		ng-change="set_user_preference('drivingServiceSwitch')">
 		<div class="topcoat-switch__toggle"></div>
 	</label>
 </div>
@@ -41,7 +47,9 @@
 <ons-list-item class="topcoat-list__item__line-height">
 <ons-row>
 <ons-col>
-<span class="topcoat-list__item__line-height">Family Service</span>
+<span class="topcoat-list__item__line-height">
+	Family Service<br>
+	<small>Allow the app to track your vehicule configuration (belts, radio preferences, glass position ...) to increase the precision of the ads.</small></span>
 </ons-col>
 <ons-col align="right">
 <div style="padding-top: 8px; padding-right: 8px">
@@ -50,7 +58,7 @@
 		ng-model="familyServiceSwitch"
 		ng-true-value="1"
 		ng-false-value="0"
-		ng-change="setPreference('familyServiceSwitch')">
+		ng-change="set_user_preference('familyServiceSwitch')">
 		<div class="topcoat-switch__toggle"></div>
 	</label>
 </div>

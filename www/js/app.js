@@ -93,7 +93,7 @@ pocPub.controller('LoginController', function($scope, subscribed_signals, car){
     $scope.logout = function(){
         while(subscribed_signals.length() > 0){
             var my_signal = subscribed_signals.pop();
-            car.unsubscribe(my_signal, true, false);
+            car.unsubscribe(my_signal, null, null);
         }
     };
 });
@@ -166,8 +166,7 @@ pocPub.controller('mainController', function($scope,subscribed_signals,car){
                     console.debug('Ad detected');
                     // Here we have an ad !
                     // let's do some work
-                    // set to mute
-                    car.set('CEA.VehicleData.Media.Mute', 1, $scope.success_callback, $scope.error_callback);
+                    // change input
                     car.set('CEA.VehicleData.Media.RadioStationSource', 3, $scope.success_callback, $scope.error_callback);
                     //increment the global counter of ads and store it.
                     $scope.$apply(function() {
@@ -193,7 +192,7 @@ pocPub.controller('mainController', function($scope,subscribed_signals,car){
             * same player shoot again !
             * we've received the same signal
             */
-        }    
+        }
     };
 
     // Get the state of the mute switch on the simulator

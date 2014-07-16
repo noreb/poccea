@@ -2348,3 +2348,603 @@ You could find it at the following address https://developer.apple.com/icloud/do
 	38  libsystem_pthread.dylib             0x02651cce start_wqthread + 30
 )
 libc++abi.dylib: terminating with uncaught exception of type NSException
+objc[27962]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-15 22:44:11.562 POCPub[27962:70b] Cannot find executable for CFBundle 0xa484010 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-15 22:44:11.584 POCPub[27962:70b] Cannot find executable for CFBundle 0xa3d1930 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-15 22:44:11.695 POCPub[27962:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 22:44:11.725 POCPub[27962:70b] Unlimited access to network resources
+2014-07-15 22:44:11.734 POCPub[27962:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-15 22:44:11.895 POCPub[27962:70b] [CDVTimer][file] 2.282023ms
+2014-07-15 22:44:11.896 POCPub[27962:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-15 22:44:11.896 POCPub[27962:70b] [CDVTimer][ceasimulator] 0.770986ms
+2014-07-15 22:44:11.897 POCPub[27962:70b] [CDVTimer][TotalPluginStartup] 3.978014ms
+2014-07-15 22:44:12.114 POCPub[27962:70b] Resetting plugins due to page load.
+2014-07-15 22:44:12.274 POCPub[27962:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/index.html
+2014-07-15 22:44:30.950 POCPub[27962:70b] -[CEACarSimulator subscribe:] (line:131) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator680524823
+2014-07-15 22:44:31.003 POCPub[27962:1207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList: -status:200
+2014-07-15 22:44:31.107 POCPub[27962:1207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:31Z","id":"766EA9DB-5B41-4CF6-8413-72D9B355944C","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:31.107 POCPub[27962:1207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:31.109 POCPub[27962:7207] SUBSCRIBE LOOP
+2014-07-15 22:44:31.117 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":0}] -callbackId:CEASimulator680524824
+2014-07-15 22:44:31.118 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":0}] -callbackId:CEASimulator680524825
+2014-07-15 22:44:31.123 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":1}] -callbackId:CEASimulator680524826
+2014-07-15 22:44:31.124 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":3}] -callbackId:CEASimulator680524827
+2014-07-15 22:44:31.125 POCPub[27962:70b] Found resource '/Users/noe/Library/Application Support/iPhone Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/pub.mp3' in the web folder.
+2014-07-15 22:44:31.230 POCPub[27962:5c03] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:31Z","id":"8E7C3C84-6044-46CF-990C-C11CF0503E23","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:31.230 POCPub[27962:5c03] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524825 -objectList:(null) -status:200
+2014-07-15 22:44:31.318 POCPub[27962:1207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:31Z","id":"FE68FF0A-28FF-472C-9A7B-FBF5BE12E228","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:31.318 POCPub[27962:1207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524824 -objectList:(null) -status:200
+2014-07-15 22:44:31.320 POCPub[27962:6a03] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:31Z","id":"5429A5B9-1517-4D7F-99DD-A7883BAEEBEE","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:31.321 POCPub[27962:6a03] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524827 -objectList:(null) -status:200
+2014-07-15 22:44:31.372 POCPub[27962:6607] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:31Z","id":"F739B471-1B91-4B37-9BF0-766D7B39CCEB","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:31.373 POCPub[27962:6607] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524826 -objectList:(null) -status:200
+2014-07-15 22:44:31.508 POCPub[27962:70b] Playing audio sample 'pub.mp3'
+2014-07-15 22:44:31.511 POCPub[27962:70b] THREAD WARNING: ['Media'] took '385.548096' ms. Plugin should use a background thread.
+2014-07-15 22:44:32.119 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:32Z","id":"45A9DE98-2847-4F84-B104-3FD4F5EBFC45","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:32.120 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:33.120 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:33Z","id":"E1C414C0-C515-4941-8ECC-7F2CA6FE8946","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:33.120 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:34.132 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:34Z","id":"9419A75E-760B-41B7-B739-5060E782D6BC","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:34.133 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:35.121 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:35Z","id":"ADBA1ED2-CFEA-4253-AC49-E64814AE9F95","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:35.122 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:36.122 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:36Z","id":"594260F7-0971-4AA5-A634-6F50F8C9E0F7","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:36.122 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:37.126 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:37Z","id":"D04829C2-DF8D-4BF2-B834-851819940F25","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:37.127 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:38.119 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:38Z","id":"8E6A7888-34A0-4935-955D-02031DDD4174","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:38.120 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:39.124 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:39Z","id":"39F02FEC-6BFC-4BB2-B58B-93461B43AA54","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:39.124 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:40.122 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:40Z","id":"A23C1C5C-E6C1-4CEA-9690-687F3AFAF797","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:40.123 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:40.546 POCPub[27962:70b] Finished playing audio sample 'pub.mp3'
+2014-07-15 22:44:41.123 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:41Z","id":"82920294-E4A0-4E89-8C63-E715843D545D","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:41.123 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:42.122 POCPub[27962:7207] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:44:42Z","id":"AF9D297F-3FF4-483E-8C14-A56FAB6B2A6E","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.112:1234"} 
+2014-07-15 22:44:42.123 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:44:43.168 POCPub[27962:7207] ERROR :: Could not connect to the server.
+2014-07-15 22:44:43.168 POCPub[27962:7207] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524823 -objectList:Could not connect to the server. -status:410
+2014-07-15 22:48:25.766 POCPub[27962:650f] 22:48:25.766 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 22:48:25.784 POCPub[27962:1233] 22:48:25.784 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 22:51:41.045 POCPub[27962:70b] -[CEACarSimulator unsubscribe:] (line:172) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator680524829
+2014-07-15 22:51:41.109 POCPub[27962:70b] THREAD WARNING: ['CEASimulator'] took '64.874023' ms. Plugin should use a background thread.
+2014-07-15 22:51:42.512 POCPub[27962:70b] -[CEACarSimulator subscribe:] (line:131) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator680524830
+2014-07-15 22:51:42.542 POCPub[27962:4337] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList: -status:200
+2014-07-15 22:51:42.561 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":0}] -callbackId:CEASimulator680524831
+2014-07-15 22:51:42.562 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":0}] -callbackId:CEASimulator680524832
+2014-07-15 22:51:42.648 POCPub[27962:7607] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:42Z","id":"153024D1-BFA3-4D36-AFC0-F53420426C70","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:42.648 POCPub[27962:7607] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524831 -objectList:(null) -status:200
+2014-07-15 22:51:43.617 POCPub[27962:4337] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:43Z","id":"C7965B76-AC66-4610-9058-066038BBAB76","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:43.617 POCPub[27962:4337] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:43.618 POCPub[27962:5c43] SUBSCRIBE LOOP
+2014-07-15 22:51:43.626 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":1}] -callbackId:CEASimulator680524833
+2014-07-15 22:51:43.626 POCPub[27962:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":3}] -callbackId:CEASimulator680524834
+2014-07-15 22:51:43.639 POCPub[27962:70b] THREAD WARNING: ['Media'] took '12.420898' ms. Plugin should use a background thread.
+2014-07-15 22:51:43.642 POCPub[27962:70b] Found resource '/Users/noe/Library/Application Support/iPhone Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/pub.mp3' in the web folder.
+2014-07-15 22:51:43.667 POCPub[27962:5a17] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:43Z","id":"67E7B2B8-714E-4162-8814-9F42DB05089C","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:43.668 POCPub[27962:5a17] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524832 -objectList:(null) -status:200
+2014-07-15 22:51:43.705 POCPub[27962:4337] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:43Z","id":"3710EDE7-6CA6-4DBD-A3E5-D549A7E8D3CD","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:43.705 POCPub[27962:4337] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524833 -objectList:(null) -status:200
+2014-07-15 22:51:43.707 POCPub[27962:1723] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:43Z","id":"30F9104C-6A05-4F1B-BE0D-C86837E3FD81","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:43.707 POCPub[27962:1723] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524834 -objectList:(null) -status:200
+2014-07-15 22:51:43.776 POCPub[27962:70b] Playing audio sample 'pub.mp3'
+2014-07-15 22:51:43.788 POCPub[27962:70b] THREAD WARNING: ['Media'] took '147.970215' ms. Plugin should use a background thread.
+2014-07-15 22:51:44.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:44Z","id":"A467611A-DD48-4E3B-89A0-7D93D84E5E86","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:44.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:45.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:45Z","id":"07207441-F484-4705-935D-064D37FBD046","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:45.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:46.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:46Z","id":"43F9E921-159D-4244-A575-8009A25C5774","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:46.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:47.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:47Z","id":"8AF0B5E9-1D66-4A7D-AF1E-242AF5943DE4","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:47.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:48.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:48Z","id":"939A4C5B-CEA5-457B-9539-2718B106E86F","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:48.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:49.646 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:49Z","id":"6E09C7DD-7829-4B29-9E86-8BD8544F4EC6","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:49.647 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:50.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:50Z","id":"92E98DB5-3D3E-4903-96F7-0AF212252731","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:50.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:51.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:51Z","id":"92C297B1-7346-43E0-B48E-E81D0B4968A8","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:51.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:52.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:52Z","id":"658E7740-00E5-4C06-A9DC-0C21F0732619","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:52.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:52.830 POCPub[27962:70b] Finished playing audio sample 'pub.mp3'
+2014-07-15 22:51:53.628 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:53Z","id":"2A101A28-D6AE-4B45-9FCA-772B7724C33C","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:53.629 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:54.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:54Z","id":"61679A0B-2AB6-4FB8-BA17-226AC6C016B3","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:54.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:55.628 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:55Z","id":"FE4A4999-706E-457A-ADBD-20E615C2C8E8","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:55.629 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:56.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:56Z","id":"384169EB-6CBF-48D6-93D0-48A98388D1ED","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:56.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:57.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:57Z","id":"153628BA-C124-4BB1-9BCB-1C3D6E58471B","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:57.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:58.634 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:58Z","id":"E26B1F11-4399-442D-A71B-141A8E444051","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:58.635 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:51:59.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:51:59Z","id":"F0579ACC-10E1-42E5-A45F-C2121D6DE37A","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:51:59.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:00.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:00Z","id":"57B48F80-E8C2-477E-98E5-395A04CDFB8D","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:00.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:01.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:01Z","id":"82049F0B-24EF-4464-803F-18E1FA3EC172","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:01.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:02.627 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:02Z","id":"693CC376-9F43-4838-84FA-89384A35E594","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:02.628 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:03.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:03Z","id":"61203217-BDD6-4B35-8EC9-9665354912CA","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:03.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:04.641 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:04Z","id":"BE3E2209-9129-4501-B000-AFCACE7AAE34","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:04.641 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:05.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:05Z","id":"D01B45E4-648D-4E19-A633-93D4D7345203","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:05.629 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:06.628 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:06Z","id":"94C44062-8F97-4790-9B44-2E043CEF28BA","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:06.629 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:07.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:07Z","id":"1E4766FE-6846-4EB0-835D-EF97FA466166","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:07.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:08.651 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:08Z","id":"F42B013C-A25B-44CF-BFE6-D8A59C4FDD58","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:08.654 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:09.628 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:09Z","id":"C841AC5A-3127-4D6A-BD95-50E05428AEE0","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:09.628 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:10.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:10Z","id":"7B540418-1C16-4261-8D90-60961A0EF9A0","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:10.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:11.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:11Z","id":"F4DFB22B-6CC9-42BF-8D66-5964A8246769","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:11.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:12.634 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:12Z","id":"44D40A38-8193-40A6-82C9-D9766535DA1D","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:12.634 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:13.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:13Z","id":"618A2423-F7D8-43A2-BC4A-65D0297E6484","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:13.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:14.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:14Z","id":"4AB3A421-D036-499D-9488-EF2E158011C2","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:14.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:15.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:15Z","id":"966481D4-7C47-45B8-8D8B-F784C8507458","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:15.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:16.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:16Z","id":"D6F860E0-39D8-4136-B155-71B4FF45EF41","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:16.633 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:17.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:17Z","id":"3D511B51-5E75-45D4-835C-B874BBA751B3","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:17.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:18.647 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:18Z","id":"10B23D05-194D-4BA2-AB45-88CCC5A76040","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:18.647 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:19.628 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:19Z","id":"A938B05C-F79E-46AC-9693-B5E889695846","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:19.628 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:20.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:20Z","id":"A4B8D776-131A-4E89-A583-7E8259B0D95A","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:20.629 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:21.627 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:21Z","id":"6DC609AD-5E14-4C35-ABC9-E0F943260708","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:21.627 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:22.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:22Z","id":"F06A5F68-5AC8-44F7-A555-A0AE7D741932","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:22.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:23.626 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:23Z","id":"CF9E7617-4DD2-4437-9CE6-7321C6BC9D92","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:23.627 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:24.641 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:24Z","id":"8EFB6EB8-9F80-4FF1-9BF5-7A071276E487","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:24.641 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:25.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:25Z","id":"8A098ADB-7C7E-4C0F-BD60-7EB498D73A25","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:25.629 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:26.628 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:26Z","id":"5C828183-7050-4DD0-BBFA-E1ED1CFE8676","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:26.628 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:27.638 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:27Z","id":"83FBD95A-316F-4E75-8C88-E636E4777F29","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:27.639 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:28.629 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:28Z","id":"D54FA558-92B5-45E7-BEFA-AAF15361CB1A","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:28.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:29.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:29Z","id":"5B5E668C-BE72-43F6-BB48-4D0B099D70FB","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:29.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:30.632 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:30Z","id":"A20E5B7B-7D32-4EB3-9EF6-9E4BCD9D3EA4","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:30.632 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:31.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:31Z","id":"E0224574-937F-43DE-8F3E-2656548D5007","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:31.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:32.649 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:32Z","id":"2AEDE0F7-04B0-4AB1-97B4-6A775EDBE1BD","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:32.650 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:33.627 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:33Z","id":"1772B26A-5692-4940-9750-D86786268BF0","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:33.627 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:34.626 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:34Z","id":"56EF2A92-849C-4D9F-93E5-E82ED6694A50","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:34.627 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:35.631 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:35Z","id":"A94B44E1-361B-4FA8-B7A2-DC4B2A0001F2","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:35.631 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:36.630 POCPub[27962:5c43] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:52:36Z","id":"B47BF6B2-F9DE-496B-A44D-C5C0581918AF","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:52:36.630 POCPub[27962:5c43] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524830 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:52:37.218 POCPub[27962:70b] -[CEACarSimulator unsubscribe:] (line:172) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator680524836
+2014-07-15 22:52:37.220 POCPub[27962:1723] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator680524836 -objectList: -status:200
+objc[28414]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-15 22:53:54.301 POCPub[28414:70b] Cannot find executable for CFBundle 0xa37fde0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-15 22:53:54.320 POCPub[28414:70b] Cannot find executable for CFBundle 0xa3a2680 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-15 22:53:54.425 POCPub[28414:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-15 22:53:54.457 POCPub[28414:70b] Unlimited access to network resources
+2014-07-15 22:53:54.468 POCPub[28414:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-15 22:53:54.564 POCPub[28414:70b] [CDVTimer][file] 2.819955ms
+2014-07-15 22:53:54.565 POCPub[28414:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-15 22:53:54.566 POCPub[28414:70b] [CDVTimer][ceasimulator] 1.040995ms
+2014-07-15 22:53:54.566 POCPub[28414:70b] [CDVTimer][TotalPluginStartup] 4.815996ms
+2014-07-15 22:53:54.769 POCPub[28414:70b] Resetting plugins due to page load.
+2014-07-15 22:53:54.992 POCPub[28414:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/index.html
+2014-07-15 22:54:45.933 POCPub[28414:70b] -[CEACarSimulator subscribe:] (line:131) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator239715285
+2014-07-15 22:54:45.942 POCPub[28414:2c07] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList: -status:200
+2014-07-15 22:54:45.965 POCPub[28414:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":0}] -callbackId:CEASimulator239715286
+2014-07-15 22:54:45.972 POCPub[28414:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":0}] -callbackId:CEASimulator239715287
+2014-07-15 22:54:46.064 POCPub[28414:471b] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:46Z","id":"82336B28-7156-4B69-85AA-EEC5BABAA16F","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:46.065 POCPub[28414:471b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715287 -objectList:(null) -status:200
+2014-07-15 22:54:46.204 POCPub[28414:2c07] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:46Z","id":"78653722-DCCC-4B0F-93FA-1C41334EE12E","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:46.205 POCPub[28414:2c07] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:46.207 POCPub[28414:7e1f] SUBSCRIBE LOOP
+2014-07-15 22:54:46.215 POCPub[28414:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":1}] -callbackId:CEASimulator239715288
+2014-07-15 22:54:46.215 POCPub[28414:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":3}] -callbackId:CEASimulator239715289
+2014-07-15 22:54:46.217 POCPub[28414:70b] Found resource '/Users/noe/Library/Application Support/iPhone Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/pub.mp3' in the web folder.
+2014-07-15 22:54:46.243 POCPub[28414:5a07] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:46Z","id":"63376A00-AAB5-4F2B-BBE3-044B0CB7B056","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:46.244 POCPub[28414:5a07] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715286 -objectList:(null) -status:200
+2014-07-15 22:54:46.312 POCPub[28414:2c07] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:46Z","id":"CC0DE2A0-1C2E-44F2-93D2-ED84ED66E280","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:46.312 POCPub[28414:2c07] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715288 -objectList:(null) -status:200
+2014-07-15 22:54:46.334 POCPub[28414:4313] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:46Z","id":"C520CFEC-E08F-4BFD-868D-0EECA3DCF110","payload":{"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:46.335 POCPub[28414:4313] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715289 -objectList:(null) -status:200
+2014-07-15 22:54:47.218 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:47Z","id":"775F58C7-B162-4924-A7FC-E30B3CBFEB99","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:47.219 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:47.733 POCPub[28414:70b] Playing audio sample 'pub.mp3'
+2014-07-15 22:54:47.741 POCPub[28414:70b] THREAD WARNING: ['Media'] took '1524.226074' ms. Plugin should use a background thread.
+2014-07-15 22:54:48.222 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:48Z","id":"3FC5D099-4D1C-4F46-8B56-0D7C30AAACB9","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:48.222 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:49.218 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:49Z","id":"77918D29-AA90-465C-B685-E57D2AABFD29","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:49.219 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:50.221 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:50Z","id":"FC094909-F419-4043-B7AD-53383D2F345A","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:50.221 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:51.221 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:51Z","id":"9579DB0A-C860-47C3-94EE-777A7CEC632A","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:51.222 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:52.226 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:52Z","id":"41909AA2-333C-463E-8831-FF2ED996710A","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:52.227 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:53.217 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:53Z","id":"9BE065F5-A33B-49BB-8124-3432F7B7D418","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:53.217 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:54.216 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:54Z","id":"134C0E0C-D164-4DB7-9A13-E7E3D961D046","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:54.217 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:55.219 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:55Z","id":"42F09F71-B43C-4A86-AFB2-3A6073FB4B1D","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:55.219 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:56.217 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:56Z","id":"2CCEF82D-CA80-4871-B840-D250C74D2766","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:56.217 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:56.775 POCPub[28414:70b] Finished playing audio sample 'pub.mp3'
+2014-07-15 22:54:57.221 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:57Z","id":"476076FB-3294-43D5-AD12-50D9D1DEF3A2","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:57.222 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:58.221 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:58Z","id":"2F5D1B47-01F6-4B4D-B62B-9AAE4A536CF3","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:58.222 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:54:59.218 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:54:59Z","id":"B2BF19A2-4064-4868-859C-1E313EEBB21C","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:54:59.219 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:00.220 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:55:00Z","id":"8B81460C-7CC7-4B29-85FD-2C0D423DD961","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:55:00.221 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:01.217 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:55:01Z","id":"AD02CE45-B2FE-40E4-8FA0-B5427602F3B3","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:55:01.217 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:02.243 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:55:02Z","id":"2C61AC7A-99BD-4FB7-9D70-8FC6AFC24EED","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:55:02.244 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:03.215 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:55:03Z","id":"75F13607-A806-4D68-9737-85DB4AE94FE8","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:55:03.215 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:04.217 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:55:04Z","id":"855581F0-E0E1-4574-8016-62BD412B337C","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:55:04.217 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:05.220 POCPub[28414:7e1f] <-------- HTTP RESPONSE NOTIFIED : {"timestamp":"2014-07-15T22:55:05Z","id":"9749C94F-9A35-4B0A-ACAC-F757C4136B0B","payload":{"result":[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}],"status":200,"type":"REPLY"},"srcid":"http:\/\/192.168.1.121:8080\/CEASimulatorWebServices\/ManageData","dstid":"psa.pocpub@192.168.1.120:1234"} 
+2014-07-15 22:55:05.221 POCPub[28414:7e1f] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator239715285 -objectList:[{"CEA.VehicleData.Media.RadioStationText":"tutu pub tutu"}] -status:200
+2014-07-15 22:55:05.674 POCPub[28414:70b] -[CEACarSimulator unsubscribe:] (line:172) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:INVALID
+2014-07-15 22:55:05.675 POCPub[28414:2c07] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:INVALID -objectList: -status:200
+2014-07-15 23:13:25.403 POCPub[28414:122f] 23:13:25.397 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:14:21.526 POCPub[28414:1233] 23:14:21.526 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:14:28.521 POCPub[28414:4317] 23:14:28.521 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:14:28.546 POCPub[28414:1233] 23:14:28.546 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:19:55.022 POCPub[28414:640f] 23:19:55.022 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:21:33.491 POCPub[28414:431f] 23:21:33.491 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:21:40.803 POCPub[28414:6417] 23:21:40.803 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:21:40.830 POCPub[28414:583f] 23:21:40.830 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-15 23:21:50.798 POCPub[28414:17423] 23:21:50.798 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 13:26:04.155 POCPub[28414:b913] 13:26:03.003 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 13:26:12.211 POCPub[28414:b913] 13:26:12.211 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 13:26:12.233 POCPub[28414:b913] 13:26:12.233 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 13:34:25.851 POCPub[28414:16827] 13:34:25.840 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 13:34:56.332 POCPub[28414:1744b] 13:34:56.332 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 13:34:56.366 POCPub[28414:1744b] 13:34:56.366 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 14:04:42.180 POCPub[28414:17453] 14:04:42.163 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 14:04:55.572 POCPub[28414:12bf] 14:04:55.572 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 14:04:55.588 POCPub[28414:6c27] 14:04:55.588 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 14:04:59.320 POCPub[28414:1683b] 14:04:59.320 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 14:18:31.291 POCPub[28414:5877] 14:18:31.291 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 14:52:52.196 POCPub[28414:653b] 14:52:52.192 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 15:01:20.495 POCPub[28414:b983] 15:01:20.495 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 15:01:26.802 POCPub[28414:b983] 15:01:26.802 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 15:01:26.825 POCPub[28414:6547] 15:01:26.825 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 15:09:30.745 POCPub[28414:588b] 15:09:30.712 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 15:09:30.828 POCPub[28414:588b] 15:09:30.828 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 17:09:30.868 POCPub[28414:162f3] 17:09:30.863 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 17:09:30.920 POCPub[28414:162f3] 17:09:30.920 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 19:09:31.194 POCPub[28414:70c7] 19:09:31.174 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-07-16 19:09:31.257 POCPub[28414:70c7] 19:09:31.257 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+objc[38082]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 19:59:34.520 POCPub[38082:70b] Cannot find executable for CFBundle 0xa542c90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 19:59:34.530 POCPub[38082:70b] Cannot find executable for CFBundle 0xa343410 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 19:59:34.610 POCPub[38082:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 19:59:34.668 POCPub[38082:70b] Unlimited access to network resources
+2014-07-16 19:59:34.676 POCPub[38082:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 19:59:34.927 POCPub[38082:70b] [CDVTimer][file] 4.590034ms
+2014-07-16 19:59:34.928 POCPub[38082:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 19:59:34.929 POCPub[38082:70b] [CDVTimer][ceasimulator] 1.980007ms
+2014-07-16 19:59:35.054 POCPub[38082:70b] [CDVTimer][splashscreen] 124.756992ms
+2014-07-16 19:59:35.055 POCPub[38082:70b] [CDVTimer][TotalPluginStartup] 132.722020ms
+2014-07-16 19:59:35.279 POCPub[38082:70b] Resetting plugins due to page load.
+2014-07-16 19:59:35.603 POCPub[38082:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/index.html
+2014-07-16 19:59:43.332 POCPub[38082:70b] Received memory warning.
+objc[38383]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:00:49.234 POCPub[38383:70b] Cannot find executable for CFBundle 0xa393da0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:00:49.240 POCPub[38383:70b] Cannot find executable for CFBundle 0xa559790 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:00:49.282 POCPub[38383:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:00:49.311 POCPub[38383:70b] Unlimited access to network resources
+2014-07-16 20:00:49.317 POCPub[38383:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:00:49.616 POCPub[38383:70b] [CDVTimer][file] 3.856003ms
+2014-07-16 20:00:49.617 POCPub[38383:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:00:49.618 POCPub[38383:70b] [CDVTimer][ceasimulator] 0.936985ms
+2014-07-16 20:00:49.708 POCPub[38383:70b] [CDVTimer][splashscreen] 89.726985ms
+2014-07-16 20:00:49.708 POCPub[38383:70b] [CDVTimer][TotalPluginStartup] 95.589995ms
+2014-07-16 20:00:50.048 POCPub[38383:70b] Resetting plugins due to page load.
+2014-07-16 20:00:50.520 POCPub[38383:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/index.html
+objc[38640]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:01:55.586 POCPub[38640:70b] Cannot find executable for CFBundle 0xa344100 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:01:55.594 POCPub[38640:70b] Cannot find executable for CFBundle 0xa3646d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:01:55.632 POCPub[38640:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:01:55.638 POCPub[38640:70b] Unlimited access to network resources
+2014-07-16 20:01:55.642 POCPub[38640:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:01:55.661 POCPub[38640:70b] [CDVTimer][file] 1.491010ms
+2014-07-16 20:01:55.662 POCPub[38640:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:01:55.662 POCPub[38640:70b] [CDVTimer][ceasimulator] 1.178980ms
+2014-07-16 20:01:55.688 POCPub[38640:70b] [CDVTimer][splashscreen] 25.592029ms
+2014-07-16 20:01:55.689 POCPub[38640:70b] [CDVTimer][TotalPluginStartup] 29.216945ms
+2014-07-16 20:01:55.812 POCPub[38640:70b] Resetting plugins due to page load.
+2014-07-16 20:01:55.895 POCPub[38640:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E58F0F09-B5EC-41D0-8260-B04AB2B9D719/POCPub.app/www/index.html
+objc[38879]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:02:41.197 swads[38879:70b] Cannot find executable for CFBundle 0xa3a9710 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:02:41.201 swads[38879:70b] Cannot find executable for CFBundle 0xa497bb0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:02:41.239 swads[38879:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:02:41.248 swads[38879:70b] Unlimited access to network resources
+2014-07-16 20:02:41.251 swads[38879:70b] Fix applied for database locations?: YES
+2014-07-16 20:02:41.251 swads[38879:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:02:41.269 swads[38879:70b] [CDVTimer][file] 1.429975ms
+2014-07-16 20:02:41.269 swads[38879:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:02:41.270 swads[38879:70b] [CDVTimer][ceasimulator] 0.569999ms
+2014-07-16 20:02:41.288 swads[38879:70b] [CDVTimer][splashscreen] 18.231988ms
+2014-07-16 20:02:41.289 swads[38879:70b] [CDVTimer][TotalPluginStartup] 21.063983ms
+2014-07-16 20:02:41.483 swads[38879:70b] Resetting plugins due to page load.
+2014-07-16 20:02:41.581 swads[38879:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[39177]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:06:54.688 swads[39177:70b] Cannot find executable for CFBundle 0xa39ebf0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:06:54.694 swads[39177:70b] Cannot find executable for CFBundle 0xa3bee80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:06:54.780 swads[39177:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:06:54.790 swads[39177:70b] Unlimited access to network resources
+2014-07-16 20:06:54.793 swads[39177:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:06:54.826 swads[39177:70b] [CDVTimer][file] 2.449989ms
+2014-07-16 20:06:54.827 swads[39177:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:06:54.827 swads[39177:70b] [CDVTimer][ceasimulator] 0.822961ms
+2014-07-16 20:06:54.842 swads[39177:70b] [CDVTimer][splashscreen] 14.827013ms
+2014-07-16 20:06:54.843 swads[39177:70b] [CDVTimer][TotalPluginStartup] 18.930018ms
+2014-07-16 20:06:55.044 swads[39177:70b] Resetting plugins due to page load.
+2014-07-16 20:06:55.130 swads[39177:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[39422]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:08:53.058 swads[39422:70b] Cannot find executable for CFBundle 0xa660c00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:08:53.063 swads[39422:70b] Cannot find executable for CFBundle 0xa3764d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:08:53.102 swads[39422:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:08:53.109 swads[39422:70b] Unlimited access to network resources
+2014-07-16 20:08:53.112 swads[39422:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:08:53.134 swads[39422:70b] [CDVTimer][file] 1.531005ms
+2014-07-16 20:08:53.134 swads[39422:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:08:53.135 swads[39422:70b] [CDVTimer][ceasimulator] 0.962973ms
+2014-07-16 20:08:53.156 swads[39422:70b] [CDVTimer][splashscreen] 20.915031ms
+2014-07-16 20:08:53.156 swads[39422:70b] [CDVTimer][TotalPluginStartup] 24.289012ms
+2014-07-16 20:08:53.242 swads[39422:70b] Resetting plugins due to page load.
+2014-07-16 20:08:53.449 swads[39422:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[39670]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:10:39.093 swads[39670:70b] Cannot find executable for CFBundle 0xa371510 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:10:39.099 swads[39670:70b] Cannot find executable for CFBundle 0xa3943e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:10:39.137 swads[39670:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:10:39.144 swads[39670:70b] Unlimited access to network resources
+2014-07-16 20:10:39.147 swads[39670:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:10:39.171 swads[39670:70b] [CDVTimer][file] 8.494020ms
+2014-07-16 20:10:39.176 swads[39670:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:10:39.178 swads[39670:70b] [CDVTimer][ceasimulator] 5.891025ms
+2014-07-16 20:10:39.190 swads[39670:70b] [CDVTimer][splashscreen] 11.353970ms
+2014-07-16 20:10:39.190 swads[39670:70b] [CDVTimer][TotalPluginStartup] 27.117014ms
+2014-07-16 20:10:39.292 swads[39670:70b] Resetting plugins due to page load.
+2014-07-16 20:10:39.375 swads[39670:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[39882]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:11:25.872 swads[39882:70b] Cannot find executable for CFBundle 0xa4e7660 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:11:25.878 swads[39882:70b] Cannot find executable for CFBundle 0xa46bd20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:11:25.908 swads[39882:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:11:25.914 swads[39882:70b] Unlimited access to network resources
+2014-07-16 20:11:25.917 swads[39882:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:11:25.935 swads[39882:70b] [CDVTimer][file] 1.420021ms
+2014-07-16 20:11:25.936 swads[39882:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:11:25.936 swads[39882:70b] [CDVTimer][ceasimulator] 0.737011ms
+2014-07-16 20:11:25.947 swads[39882:70b] [CDVTimer][splashscreen] 10.250986ms
+2014-07-16 20:11:25.947 swads[39882:70b] [CDVTimer][TotalPluginStartup] 13.368011ms
+2014-07-16 20:11:26.027 swads[39882:70b] Resetting plugins due to page load.
+2014-07-16 20:11:26.112 swads[39882:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[40228]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:18:07.526 swads[40228:70b] Cannot find executable for CFBundle 0xa39f8d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:18:07.531 swads[40228:70b] Cannot find executable for CFBundle 0xa69a750 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:18:07.603 swads[40228:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:18:07.611 swads[40228:70b] Unlimited access to network resources
+2014-07-16 20:18:07.614 swads[40228:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:18:07.657 swads[40228:70b] [CDVTimer][file] 2.387047ms
+2014-07-16 20:18:07.658 swads[40228:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:18:07.658 swads[40228:70b] [CDVTimer][ceasimulator] 0.820994ms
+2014-07-16 20:18:07.672 swads[40228:70b] [CDVTimer][splashscreen] 13.818979ms
+2014-07-16 20:18:07.672 swads[40228:70b] [CDVTimer][TotalPluginStartup] 17.894983ms
+2014-07-16 20:18:07.850 swads[40228:70b] Resetting plugins due to page load.
+2014-07-16 20:18:08.024 swads[40228:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[40469]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:19:42.508 swads[40469:70b] Cannot find executable for CFBundle 0xa6980c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:19:42.513 swads[40469:70b] Cannot find executable for CFBundle 0xa6bb820 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:19:42.552 swads[40469:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:19:42.560 swads[40469:70b] Unlimited access to network resources
+2014-07-16 20:19:42.563 swads[40469:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:19:42.582 swads[40469:70b] [CDVTimer][file] 2.278984ms
+2014-07-16 20:19:42.583 swads[40469:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:19:42.583 swads[40469:70b] [CDVTimer][ceasimulator] 0.945985ms
+2014-07-16 20:19:42.595 swads[40469:70b] [CDVTimer][splashscreen] 11.048019ms
+2014-07-16 20:19:42.595 swads[40469:70b] [CDVTimer][TotalPluginStartup] 15.147030ms
+2014-07-16 20:19:42.702 swads[40469:70b] Resetting plugins due to page load.
+2014-07-16 20:19:42.809 swads[40469:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+objc[40768]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:21:25.392 swads[40768:70b] Cannot find executable for CFBundle 0xa46cc80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:21:25.417 swads[40768:70b] Cannot find executable for CFBundle 0xa47e4e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:21:25.551 swads[40768:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:21:25.611 swads[40768:70b] Unlimited access to network resources
+2014-07-16 20:21:25.621 swads[40768:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:21:25.704 swads[40768:70b] [CDVTimer][file] 3.107011ms
+2014-07-16 20:21:25.705 swads[40768:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:21:25.706 swads[40768:70b] [CDVTimer][ceasimulator] 1.235008ms
+2014-07-16 20:21:25.718 swads[40768:70b] [CDVTimer][splashscreen] 11.361003ms
+2014-07-16 20:21:25.718 swads[40768:70b] [CDVTimer][TotalPluginStartup] 16.934037ms
+2014-07-16 20:21:25.932 swads[40768:70b] Resetting plugins due to page load.
+2014-07-16 20:21:26.139 swads[40768:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+2014-07-16 20:21:28.048 swads[40768:70b] -[CEACarSimulator subscribe:] (line:131) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator1224598692
+2014-07-16 20:21:28.049 swads[40768:5c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator1224598692 -objectList: -status:200
+2014-07-16 20:21:28.057 swads[40768:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":0}] -callbackId:CEASimulator1224598693
+2014-07-16 20:21:28.058 swads[40768:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":0}] -callbackId:CEASimulator1224598694
+2014-07-16 20:21:40.057 swads[40768:5c0b] ERROR :: The request timed out.
+2014-07-16 20:21:40.057 swads[40768:5c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator1224598692 -objectList:The request timed out. -status:408
+2014-07-16 20:21:40.058 swads[40768:5c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator1224598693 -objectList:The request timed out. -status:408
+2014-07-16 20:21:40.058 swads[40768:5c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator1224598694 -objectList:The request timed out. -status:408
+2014-07-16 20:21:40.059 swads[40768:7723] SUBSCRIBE LOOP
+2014-07-16 20:21:40.062 swads[40768:4307] ERROR :: The request timed out.
+2014-07-16 20:21:40.062 swads[40768:460f] ERROR :: The request timed out.
+2014-07-16 20:21:40.104 swads[40768:70b] *** Assertion failure in -[UIApplication runModal:](), /SourceCache/UIKit_Sim/UIKit-2935.137/UIApplication.m:9585
+2014-07-16 20:21:40.105 swads[40768:70b] *** WebKit discarded an uncaught exception in the webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame: delegate: <NSInternalInconsistencyException> The view passed in does not have a window.
+objc[40992]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-16 20:22:24.058 swads[40992:70b] Cannot find executable for CFBundle 0xa4aebf0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-16 20:22:24.065 swads[40992:70b] Cannot find executable for CFBundle 0xa3b1e70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-16 20:22:24.108 swads[40992:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-16 20:22:24.114 swads[40992:70b] Unlimited access to network resources
+2014-07-16 20:22:24.117 swads[40992:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-16 20:22:24.136 swads[40992:70b] [CDVTimer][file] 1.451015ms
+2014-07-16 20:22:24.137 swads[40992:70b] Car simulator URL: http://192.168.1.121:8080/CEASimulatorWebServices/ManageData
+2014-07-16 20:22:24.137 swads[40992:70b] [CDVTimer][ceasimulator] 0.813007ms
+2014-07-16 20:22:24.150 swads[40992:70b] [CDVTimer][splashscreen] 12.151003ms
+2014-07-16 20:22:24.150 swads[40992:70b] [CDVTimer][TotalPluginStartup] 15.244007ms
+2014-07-16 20:22:24.273 swads[40992:70b] Resetting plugins due to page load.
+2014-07-16 20:22:24.370 swads[40992:70b] Finished load of: file:///Users/noe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E56723BD-67BF-4B0A-A2CC-8C901D7068DA/swads.app/www/index.html
+2014-07-16 20:22:44.540 swads[40992:70b] -[CEACarSimulator subscribe:] (line:131) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationText":""}] -callbackId:CEASimulator105436370
+2014-07-16 20:22:44.544 swads[40992:2c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator105436370 -objectList: -status:200
+2014-07-16 20:22:44.577 swads[40992:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.Mute":0}] -callbackId:CEASimulator105436371
+2014-07-16 20:22:44.578 swads[40992:70b] -[CEACarSimulator set:] (line:99) -attributeIDList:[{"CEA.VehicleData.Media.RadioStationSource":0}] -callbackId:CEASimulator105436372
+2014-07-16 20:22:56.554 swads[40992:2c0b] ERROR :: The request timed out.
+2014-07-16 20:22:56.560 swads[40992:2c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator105436370 -objectList:The request timed out. -status:408
+2014-07-16 20:22:56.561 swads[40992:2c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator105436371 -objectList:The request timed out. -status:408
+2014-07-16 20:22:56.562 swads[40992:2c0b] -[CEACarSimulator receiveCallbackToMethod:WithObjectList:andStatus:] (line:242) -callbackMethod:CEASimulator105436372 -objectList:The request timed out. -status:408
+2014-07-16 20:22:56.562 swads[40992:650b] SUBSCRIBE LOOP
+2014-07-16 20:22:56.602 swads[40992:5a0f] ERROR :: The request timed out.
+2014-07-16 20:22:56.602 swads[40992:4307] ERROR :: The request timed out.
+2014-07-16 20:22:56.633 swads[40992:70b] *** Assertion failure in -[UIApplication runModal:](), /SourceCache/UIKit_Sim/UIKit-2935.137/UIApplication.m:9585
+2014-07-16 20:22:56.634 swads[40992:70b] *** WebKit discarded an uncaught exception in the webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame: delegate: <NSInternalInconsistencyException> The view passed in does not have a window.
+2014-07-16 20:22:56.721 swads[40992:5a0f] *** Terminating app due to uncaught exception 'NSRangeException', reason: '*** -[__NSArrayM objectAtIndex:]: index 0 beyond bounds for empty array'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x001191e4 __exceptionPreprocess + 180
+	1   libobjc.A.dylib                     0x01d4f8e5 objc_exception_throw + 44
+	2   CoreFoundation                      0x000ba3f6 -[__NSArrayM objectAtIndex:] + 246
+	3   CoreFoundation                      0x000fee33 -[NSMutableArray removeObject:] + 163
+	4   swads                               0x00043383 -[CEA_Session connection:didFailWithError:] + 499
+	5   Foundation                          0x01b18bd7 ___NSURLConnectionDidFail_block_invoke + 134
+	6   Foundation                          0x01aaf7e1 __65-[NSURLConnectionInternal _withConnectionAndDelegate:onlyActive:]_block_invoke + 62
+	7   Foundation                          0x01937f5e -[NSURLConnectionInternalConnection invokeForDelegate:] + 119
+	8   Foundation                          0x01937ec6 -[NSURLConnectionInternal _withConnectionAndDelegate:onlyActive:] + 208
+	9   Foundation                          0x01aaf94d -[NSURLConnectionInternal _withConnectionAndDelegate:] + 76
+	10  Foundation                          0x01b17cfa _NSURLConnectionDidFail + 90
+	11  CFNetwork                           0x05d49a61 ___ZN27URLConnectionClient_Classic17_delegate_didFailEP9__CFErrorU13block_pointerFvvE_block_invoke + 142
+	12  CFNetwork                           0x05d473de ___ZN27URLConnectionClient_Classic18_withDelegateAsyncEPKcU13block_pointerFvP16_CFURLConnectionPK33CFURLConnectionClientCurrent_VMaxE_block_invoke_2 + 104
+	13  CoreFoundation                      0x000bac69 CFArrayApplyFunction + 57
+	14  CFNetwork                           0x05cb0441 _ZN19RunloopBlockContext7performEv + 155
+	15  CFNetwork                           0x05d923f4 _ZThn16_N19RunloopBlockContext24multiplexerClientPerformEv + 20
+	16  CFNetwork                           0x05cb0257 _ZN17MultiplexerSource7performEv + 299
+	17  CFNetwork                           0x05cb006c _ZN17MultiplexerSource8_performEPv + 76
+	18  CoreFoundation                      0x000a277f __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15
+	19  CoreFoundation                      0x000a210b __CFRunLoopDoSources0 + 235
+	20  CoreFoundation                      0x000bf1ae __CFRunLoopRun + 910
+	21  CoreFoundation                      0x000be9d3 CFRunLoopRunSpecific + 467
+	22  CoreFoundation                      0x000be7eb CFRunLoopRunInMode + 123
+	23  Foundation                          0x019abe35 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 284
+	24  swads                               0x00042c9c -[CEA_Session sendData:toURL:] + 988
+	25  swads                               0x00045c55 -[CEA_RemoteEndpoint set:callback:] + 565
+	26  swads                               0x0004e284 __23-[CEACarSimulator set:]_block_invoke + 68
+	27  libdispatch.dylib                   0x0230d7b8 _dispatch_call_block_and_release + 15
+	28  libdispatch.dylib                   0x023224d0 _dispatch_client_callout + 14
+	29  libdispatch.dylib                   0x02310eb7 _dispatch_root_queue_drain + 291
+	30  libdispatch.dylib                   0x02311127 _dispatch_worker_thread2 + 39
+	31  libsystem_pthread.dylib             0x02651dab _pthread_wqthread + 336
+	32  libsystem_pthread.dylib             0x02655cce start_wqthread + 30
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException

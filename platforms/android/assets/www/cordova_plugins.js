@@ -15,6 +15,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -166,6 +173,7 @@ module.exports.metadata =
 {
     "org.apache.cordova.media": "0.2.11",
     "es.cea.simulator": "0.1.0-SNAPSHOT",
+    "org.apache.cordova.splashscreen": "0.3.1",
     "org.apache.cordova.file": "1.2.0",
     "es.cea.common": "0.1.0-SNAPSHOT"
 }
